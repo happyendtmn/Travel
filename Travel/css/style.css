@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 /* .............Promo........... */
 
 .title {
@@ -274,6 +280,7 @@
   align-items: center;
   margin-right: 30px;
   margin-left: 30px;
+  position: relative;
 }
 
 .pricing-item .pricing-cost {
@@ -302,9 +309,157 @@
   background-color:#e3d5b8;
   border-radius: 5px;
   transition: all .4s ease;
+  margin-top: 10px;
   }
 
 .pricing-btn:hover {
   background-color:rgb(208, 57, 88);
   color: white;
 }
+
+.trangle {
+  width: 0;
+  height: 0;
+  border-top: 90px solid #b4a993;
+  border-right: 90px solid transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+}
+
+.trangle p {
+  font-size: 16px;
+  font-family: "PT Serif";
+  color: rgb(31, 31, 31);
+  line-height: 1.75;
+  -moz-transform: matrix( 0.67739919539163,-0.73561561299552,0.73561561299552,0.67739919539163,0,0);
+  -webkit-transform: matrix( 0.67739919539163,-0.73561561299552,0.73561561299552,0.67739919539163,0,0);
+  -ms-transform: matrix( 0.67739919539163,-0.73561561299552,0.73561561299552,0.67739919539163,0,0);
+  position: absolute;
+  left: 5px;
+  top: -75px;
+  margin: 0;
+  }
+
+
+/* .........REVIEWS............ */
+
+.reviews {
+  padding: 120px 0;
+
+}
+
+.reviews .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonial {
+  width: 60%;
+}
+
+.testimonial-title {
+  align-items: center;
+  margin-left: 30px;
+}
+
+.testimonial-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial-item {
+  position: relative;
+  padding: 26px 70px 26px 26px;
+  margin-bottom: 35px;
+  width: 70%;
+  transition: all .5s linear;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+
+.testimonial-item:hover {
+  background-color: #e3d5b8;
+}
+
+.testimonial-img {
+  position: absolute;
+  right: -60px;
+  top: 5%;
+}
+
+.testimonial-descr {
+  font-size: 20px;
+  font-family: "PT Serif";
+  color: rgb(22, 22, 22);
+  line-height: 1.4;
+  }
+
+.testimonial-subtext {
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: rgb(208, 57, 88);
+  line-height: 1.4;
+  }
+
+.gallery-title {
+  text-align: center;
+  color: #d03958;
+}
+
+.gallery-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery {
+  width: 42%;
+}
+
+.gallery-more {
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: rgb(208, 57, 88);
+  text-decoration: underline;
+  line-height: 1.4;
+  display: block;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.gallery-more:hover {
+  color: rgb(208, 57, 88);
+
+}
+
+
+/* .........FOOTER.......... */
+
+.footer {
+  background-color: black;
+  min-height: 120px;
+}
+
+.footer-text {
+  color: white;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 175px;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.footer-span {
+  color:rgb(208, 57, 88);
+}
+
+  
+
+
+
+  
